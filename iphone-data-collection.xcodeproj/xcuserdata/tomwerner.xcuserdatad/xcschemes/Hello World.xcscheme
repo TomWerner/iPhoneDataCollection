@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F9B07FFD19146BAA00BEBA7B"
-               BuildableName = "Hello World.app"
-               BlueprintName = "Hello World"
-               ReferencedContainer = "container:Hello World.xcodeproj">
+               BuildableName = "iphone-sms.app"
+               BlueprintName = "iphone-sms"
+               ReferencedContainer = "container:iphone-sms.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F9B0801819146BAA00BEBA7B"
-               BuildableName = "Hello WorldTests.xctest"
-               BlueprintName = "Hello WorldTests"
-               ReferencedContainer = "container:Hello World.xcodeproj">
+               BuildableName = "iphone-smsTests.xctest"
+               BlueprintName = "iphone-smsTests"
+               ReferencedContainer = "container:iphone-sms.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F9B07FFD19146BAA00BEBA7B"
-            BuildableName = "Hello World.app"
-            BlueprintName = "Hello World"
-            ReferencedContainer = "container:Hello World.xcodeproj">
+            BuildableName = "iphone-sms.app"
+            BlueprintName = "iphone-sms"
+            ReferencedContainer = "container:iphone-sms.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F9B07FFD19146BAA00BEBA7B"
-            BuildableName = "Hello World.app"
-            BlueprintName = "Hello World"
-            ReferencedContainer = "container:Hello World.xcodeproj">
+            BuildableName = "iphone-sms.app"
+            BlueprintName = "iphone-sms"
+            ReferencedContainer = "container:iphone-sms.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F9B07FFD19146BAA00BEBA7B"
-            BuildableName = "Hello World.app"
-            BlueprintName = "Hello World"
-            ReferencedContainer = "container:Hello World.xcodeproj">
+            BuildableName = "iphone-sms.app"
+            BlueprintName = "iphone-sms"
+            ReferencedContainer = "container:iphone-sms.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
