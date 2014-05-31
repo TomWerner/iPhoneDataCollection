@@ -66,6 +66,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F904D2101937D59B00D91759 /* iOS_Team_Provisioning_Profile_eduuiowacyberbullying.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = iOS_Team_Provisioning_Profile_eduuiowacyberbullying.mobileprovision; sourceTree = "<group>"; };
 		F9290D8D1916F51400EF9D28 /* twitter button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "twitter button.png"; path = "iPhone Data collection/twitter button.png"; sourceTree = "<group>"; };
 		F9A4E2401916CDBA0093ADC7 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		F9A4E2411916CDBA0093ADC7 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
@@ -123,11 +124,11 @@
 		F9ACAEF21927CAA900A58B48 /* CustomIOS7AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomIOS7AlertView.m; sourceTree = "<group>"; };
 		F9ACAEF91927CAA900A58B48 /* screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen.png; sourceTree = "<group>"; };
 		F9ACAEFA1927CAA900A58B48 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		F9B07FFE19146BAA00BEBA7B /* iphone-sms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iphone-sms.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B07FFE19146BAA00BEBA7B /* cyberbullying.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cyberbullying.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B0800119146BAA00BEBA7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F9B0800319146BAA00BEBA7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F9B0800519146BAA00BEBA7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		F9B0800919146BAA00BEBA7B /* iphone-sms-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iphone-sms-Info.plist"; sourceTree = "<group>"; };
+		F9B0800919146BAA00BEBA7B /* cyberbullying-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cyberbullying-Info.plist"; sourceTree = "<group>"; };
 		F9B0800B19146BAA00BEBA7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F9B0800D19146BAA00BEBA7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F9B0800F19146BAA00BEBA7B /* iphone-sms-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iphone-sms-Prefix.pch"; sourceTree = "<group>"; };
@@ -302,6 +303,7 @@
 		F9B07FF519146BAA00BEBA7B = {
 			isa = PBXGroup;
 			children = (
+				F904D2101937D59B00D91759 /* iOS_Team_Provisioning_Profile_eduuiowacyberbullying.mobileprovision */,
 				F9ACAEE01927CAA900A58B48 /* ios-custom-alertview */,
 				F9A4E2501916D0370093ADC7 /* oauthconsumer */,
 				F9A4E23F1916CDBA0093ADC7 /* JSON */,
@@ -316,7 +318,7 @@
 		F9B07FFF19146BAA00BEBA7B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F9B07FFE19146BAA00BEBA7B /* iphone-sms.app */,
+				F9B07FFE19146BAA00BEBA7B /* cyberbullying.app */,
 				F9B0801919146BAA00BEBA7B /* iphone-smsTests.xctest */,
 			);
 			name = Products;
@@ -355,7 +357,7 @@
 		F9B0800819146BAA00BEBA7B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F9B0800919146BAA00BEBA7B /* iphone-sms-Info.plist */,
+				F9B0800919146BAA00BEBA7B /* cyberbullying-Info.plist */,
 				F9B0800A19146BAA00BEBA7B /* InfoPlist.strings */,
 				F9B0800D19146BAA00BEBA7B /* main.m */,
 				F9B0800F19146BAA00BEBA7B /* iphone-sms-Prefix.pch */,
@@ -380,7 +382,7 @@
 			);
 			name = "iphone-sms";
 			productName = "iPhone Data collection";
-			productReference = F9B07FFE19146BAA00BEBA7B /* iphone-sms.app */;
+			productReference = F9B07FFE19146BAA00BEBA7B /* cyberbullying.app */;
 			productType = "com.apple.product-type.application";
 		};
 		F9B0801819146BAA00BEBA7B /* iphone-smsTests */ = {
@@ -411,12 +413,15 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
 				TargetAttributes = {
+					F9B07FFD19146BAA00BEBA7B = {
+						DevelopmentTeam = S338357XKT;
+					};
 					F9B0801819146BAA00BEBA7B = {
 						TestTargetID = F9B07FFD19146BAA00BEBA7B;
 					};
 				};
 			};
-			buildConfigurationList = F9B07FF919146BAA00BEBA7B /* Build configuration list for PBXProject "iphone-data-collection" */;
+			buildConfigurationList = F9B07FF919146BAA00BEBA7B /* Build configuration list for PBXProject "cyberbullying" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -603,14 +608,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tom Werner (P9ZBA2Z473)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tom Werner (P9ZBA2Z473)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/tomwerner/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPhone Data collection/iphone-sms-Prefix.pch";
-				INFOPLIST_FILE = "iPhone Data collection/iphone-sms-Info.plist";
-				PRODUCT_NAME = "iphone-sms";
+				INFOPLIST_FILE = "iPhone Data collection/cyberbullying-Info.plist";
+				PRODUCT_NAME = cyberbullying;
+				PROVISIONING_PROFILE = "8EF1FA01-5F42-44D7-A61F-BDA513E48780";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -620,14 +628,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/tomwerner/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPhone Data collection/iphone-sms-Prefix.pch";
-				INFOPLIST_FILE = "iPhone Data collection/iphone-sms-Info.plist";
-				PRODUCT_NAME = "iphone-sms";
+				INFOPLIST_FILE = "iPhone Data collection/cyberbullying-Info.plist";
+				PRODUCT_NAME = cyberbullying;
+				PROVISIONING_PROFILE = "8EF1FA01-5F42-44D7-A61F-BDA513E48780";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -675,7 +686,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F9B07FF919146BAA00BEBA7B /* Build configuration list for PBXProject "iphone-data-collection" */ = {
+		F9B07FF919146BAA00BEBA7B /* Build configuration list for PBXProject "cyberbullying" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F9B0802819146BAA00BEBA7B /* Debug */,
